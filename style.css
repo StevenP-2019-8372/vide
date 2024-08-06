@@ -19,7 +19,9 @@ main {
     margin-bottom: 20px;
 }
 
-video, iframe {
-    max-width: 100%;
+iframe {
+    width: 100%;
     height: auto;
+    max-width: 100%;
+    aspect-ratio: 16/9; /* Mantiene una proporción de 16:9 para los videos */
 }
